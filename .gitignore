@@ -1,0 +1,27 @@
+# Runtime data never belongs in the public repository.
+work/
+outputs/
+state/
+.linkedin-agent/
+private/
+.env
+.env.*
+!.env.example
+*.dpapi
+*.sqlite*
+*.db
+*.log
+*.pem
+*.key
+*token*.json
+*credential*.json
+identity.json
+settings.json
+PROFILE.md
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+*.zip
